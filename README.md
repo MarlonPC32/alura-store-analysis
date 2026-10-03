@@ -1,83 +1,68 @@
-# alura-store-analisis
-Análisis de datos de ventas de Alura Store para identificar la tienda con menor rendimiento.
+# Análisis de ventas — Alura Store
 
-# Análisis de ventas - Alura Store
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![pandas](https://img.shields.io/badge/pandas-data-green)
+![matplotlib](https://img.shields.io/badge/matplotlib-viz-yellow)
+![Jupyter](https://img.shields.io/badge/Jupyter-notebook-orange)
+
+Análisis de datos de ventas de Alura Store para identificar la tienda con menor rendimiento.
 
 ## Propósito del análisis
 
-El objetivo de este proyecto es analizar el rendimiento de las cuatro tiendas de la cadena **Alura Store** para ayudar al Sr. Juan a tomar una decisión estratégica sobre cuál tienda debería vender para invertir en un nuevo negocio.
+El objetivo es analizar el rendimiento de las cuatro tiendas de la cadena **Alura Store** para ayudar al Sr. Juan a tomar una decisión estratégica sobre cuál tienda debería vender para invertir en un nuevo negocio.
 
-Para ello, se analizaron diferentes métricas clave del negocio, como los **ingresos totales, las categorías de productos más y menos vendidas, las calificaciones promedio de los clientes, los productos más vendidos y el costo promedio de envío**.
-
-A partir de este análisis, se generaron visualizaciones y conclusiones que permiten identificar qué tienda presenta el menor rendimiento.
-
----
+Se analizaron métricas clave del negocio: **ingresos totales, categorías de productos más y menos vendidas, calificaciones promedio de los clientes, productos más vendidos y costo promedio de envío**.
 
 ## Estructura del proyecto
 
-El proyecto está organizado de la siguiente manera:
-
-- **AluraStoreLatam.ipynb**  
-  Notebook principal donde se realiza todo el análisis de datos.
-
-- **README.md**  
-  Archivo que describe el propósito del proyecto, su estructura y cómo ejecutar el análisis.
-
----
+```
+alura-store-analisis
+├── alura_store_sales_analysis.ipynb   # notebook principal con todo el análisis
+└── README.md
+```
 
 ## Análisis realizado
 
-Durante el proyecto se realizaron los siguientes análisis:
-
-- Cálculo del **ingreso total por tienda**.
-- Identificación de las **categorías de productos más y menos vendidas**.
-- Cálculo de la **calificación promedio de los clientes**.
-- Identificación de los **productos más y menos vendidos**.
-- Cálculo del **costo promedio de envío por tienda**.
-- Creación de **visualizaciones para interpretar los resultados**.
-
----
+- Cálculo del **ingreso total por tienda**
+- Identificación de las **categorías de productos más y menos vendidas**
+- Cálculo de la **calificación promedio de los clientes**
+- Identificación de los **productos más y menos vendidos**
+- Cálculo del **costo promedio de envío por tienda**
+- Creación de **visualizaciones para interpretar los resultados**
 
 ## Visualización de datos
 
-Se generaron diferentes gráficos para facilitar la interpretación de los resultados, incluyendo:
-
-- Gráficos de **barras** para comparar los ingresos de cada tienda.
-- Gráficos **circulares** para visualizar la distribución de categorías de productos.
-- Gráficos de **líneas** para comparar las calificaciones promedio de los clientes.
-- Gráficos de **dispersión** para analizar la distribución geográfica de las ventas.
-
-Estas visualizaciones ayudan a identificar patrones y diferencias entre las tiendas.
-
----
+- Gráficos de **barras** para comparar los ingresos de cada tienda
+- Gráficos **circulares** para la distribución de categorías de productos
+- Gráficos de **líneas** para comparar las calificaciones promedio
+- Gráficos de **dispersión** para la distribución geográfica de las ventas
 
 ## Conclusión del análisis
 
-Después de analizar los datos, se identificó que **la Tienda 4 presenta el menor ingreso total**, lo que indica un rendimiento inferior en comparación con las otras tiendas.
+**La Tienda 4 presenta el menor ingreso total**, lo que indica un rendimiento inferior frente a las otras tiendas.
 
-Aunque las calificaciones de los clientes y los costos de envío son relativamente similares entre las tiendas, el nivel de ingresos sigue siendo el factor más relevante para evaluar el desempeño del negocio.
+Aunque las calificaciones de los clientes y los costos de envío son relativamente similares entre tiendas, el nivel de ingresos sigue siendo el factor más relevante para evaluar el desempeño.
 
-Por esta razón, se recomienda que **la Tienda 4 sea considerada para la venta**, permitiendo al Sr. Juan reinvertir los recursos en nuevas oportunidades de negocio.
-
----
+Por esta razón, se recomienda que **la Tienda 4 sea considerada para la venta**, permitiendo reinvertir los recursos en nuevas oportunidades de negocio.
 
 ## Cómo ejecutar el proyecto
 
-Para ejecutar este análisis:
+```bash
+pip install pandas matplotlib
+```
 
-1. Abrir el archivo **AluraStoreLatam.ipynb** en **Google Colab**.
-2. Ejecutar las celdas del notebook en orden.
-3. Revisar los resultados de los análisis y las visualizaciones generadas.
-
----
+1. Abrir `alura_store_sales_analysis.ipynb` en **Google Colab** o Jupyter
+2. Ejecutar las celdas en orden
+3. Revisar los análisis y visualizaciones generadas
 
 ## Tecnologías utilizadas
 
-- Python  
-- Pandas  
-- Matplotlib  
+- Python
+- Pandas
+- Matplotlib
 - Google Colab
 
 ## Autor
 
-Marlon Peña Crespo
+**Marlon P. Crespo** — Computer Science @ Columbia University
+[LinkedIn](https://www.linkedin.com/in/marlonpc)
