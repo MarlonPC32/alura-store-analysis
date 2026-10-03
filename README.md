@@ -1,68 +1,36 @@
-# Análisis de ventas — Alura Store
+# Alura Store — Sales Performance Analysis
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![pandas](https://img.shields.io/badge/pandas-data-green)
-![matplotlib](https://img.shields.io/badge/matplotlib-viz-yellow)
-![Jupyter](https://img.shields.io/badge/Jupyter-notebook-orange)
+Which of 4 retail stores should be sold? Analysis of revenue, product categories, ratings, best/worst sellers, and shipping cost per store.
 
-Análisis de datos de ventas de Alura Store para identificar la tienda con menor rendimiento.
+## Data
 
-## Propósito del análisis
+- 4 CSVs (one per store) from the Alura LatAm data-science challenge: product, category, price, customer rating, shipping cost, and geolocation (lat/lon) per sale.
 
-El objetivo es analizar el rendimiento de las cuatro tiendas de la cadena **Alura Store** para ayudar al Sr. Juan a tomar una decisión estratégica sobre cuál tienda debería vender para invertir en un nuevo negocio.
+## Analysis
 
-Se analizaron métricas clave del negocio: **ingresos totales, categorías de productos más y menos vendidas, calificaciones promedio de los clientes, productos más vendidos y costo promedio de envío**.
+Per store: total revenue, sales by product category, average customer rating, most/least sold products, average shipping cost. Compared with bar charts, pie charts, line charts, and geographic scatter plots.
 
-## Estructura del proyecto
+## Results
 
-```
-alura-store-analisis
-├── alura_store_sales_analysis.ipynb   # notebook principal con todo el análisis
-└── README.md
-```
+| Store | Total revenue | Avg. rating | Avg. shipping cost |
+|---|---|---|---|
+| Store 1 | 1,150,880,400 | 3.98 | 26,019 |
+| Store 2 | 1,116,343,500 | 4.04 | 25,216 |
+| Store 3 | 1,098,019,600 | 4.05 | 24,806 |
+| Store 4 | 1,038,375,700 | 4.00 | 23,459 |
 
-## Análisis realizado
+Store 4 has the lowest revenue by a clear margin (~112M below Store 1). Ratings and shipping costs are similar across all four stores, so revenue is the deciding factor.
 
-- Cálculo del **ingreso total por tienda**
-- Identificación de las **categorías de productos más y menos vendidas**
-- Cálculo de la **calificación promedio de los clientes**
-- Identificación de los **productos más y menos vendidos**
-- Cálculo del **costo promedio de envío por tienda**
-- Creación de **visualizaciones para interpretar los resultados**
+**Recommendation: sell Store 4** and reinvest the capital in a new business.
 
-## Visualización de datos
-
-- Gráficos de **barras** para comparar los ingresos de cada tienda
-- Gráficos **circulares** para la distribución de categorías de productos
-- Gráficos de **líneas** para comparar las calificaciones promedio
-- Gráficos de **dispersión** para la distribución geográfica de las ventas
-
-## Conclusión del análisis
-
-**La Tienda 4 presenta el menor ingreso total**, lo que indica un rendimiento inferior frente a las otras tiendas.
-
-Aunque las calificaciones de los clientes y los costos de envío son relativamente similares entre tiendas, el nivel de ingresos sigue siendo el factor más relevante para evaluar el desempeño.
-
-Por esta razón, se recomienda que **la Tienda 4 sea considerada para la venta**, permitiendo reinvertir los recursos en nuevas oportunidades de negocio.
-
-## Cómo ejecutar el proyecto
+## Reproduce
 
 ```bash
 pip install pandas matplotlib
 ```
 
-1. Abrir `alura_store_sales_analysis.ipynb` en **Google Colab** o Jupyter
-2. Ejecutar las celdas en orden
-3. Revisar los análisis y visualizaciones generadas
+Open `alura_store_sales_analysis.ipynb` in Jupyter or Google Colab and run all cells.
 
-## Tecnologías utilizadas
+## Context
 
-- Python
-- Pandas
-- Matplotlib
-- Google Colab
-
-## Autor
-
-**Marlon P. Crespo** — Computer Science @ Columbia University
-[LinkedIn](https://www.linkedin.com/in/marlonpc)
+Built for the Alura Store data-science challenge (Oracle Next Education).
