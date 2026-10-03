@@ -1,6 +1,6 @@
 # Alura Store — Sales Performance Analysis
 
-Which of 4 retail stores should be sold? Analysis of revenue, product categories, ratings, best/worst sellers, and shipping cost per store.
+Which of 4 retail stores is the weakest performer? Analysis of revenue, product categories, ratings, best/worst sellers, and shipping cost per store.
 
 ## Data
 
@@ -19,9 +19,11 @@ Per store: total revenue, sales by product category, average customer rating, mo
 | Store 3 | 1,098,019,600 | 4.05 | 24,806 |
 | Store 4 | 1,038,375,700 | 4.00 | 23,459 |
 
-Store 4 has the lowest revenue by a clear margin (~112M below Store 1). Ratings and shipping costs are similar across all four stores, so revenue is the deciding factor.
+Store 4 has the lowest observed revenue by a clear margin (~112M below Store 1). Ratings and shipping costs are similar across all four stores, so revenue is the main differentiator in this data.
 
-**Recommendation: sell Store 4** and reinvest the capital in a new business.
+Whether Store 4 should actually be sold cannot be decided from revenue alone — that requires profitability (margins, fixed costs), store valuation, and growth trajectory, none of which are in this dataset. On the available evidence, Store 4 is the weakest performer by revenue and the natural candidate for a deeper profitability review before any sale decision.
+
+*Figures as reported in the source dataset (currency and reporting period not specified).*
 
 ## Reproduce
 
